@@ -8,7 +8,7 @@ from config import START_PIC, UPDATES_CHANNEL, GROUP_SUPPORT
 
 
 ALIVE_PIC = START_PIC
-HOME_TEXT = "👋🏻 **مرحبا [{}](tg://user?id={})** \n\n🤖 انا **ايــثــون**. \n**استطيع تشغيل الموسيقي, والراديو, Vc Raid, وفديوهات اليوتيوب & وايضا تشغيل فديوهات التلجرام والصوت **"
+HOME_TEXT = "👋🏻 **مرحبا [{}](tg://user?id={})** \n\n🤖 انا **- 𝚃𝙰𝙴𝙼 𝙴𝙸𝚂𝙰 𝙼𝚄𝚂𝙸𝙲**. \n**استطيع تشغيل الموسيقي, والراديو, Vc Raid, وفديوهات اليوتيوب & وايضا تشغيل فديوهات التلجرام والصوت **"
 HELP_TEXT = """
 🏷️ **دليل الإعداد** :
 
@@ -69,7 +69,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 InlineKeyboardButton("🗨️ سبام", callback_data="spam"),
             ],
             [
-                InlineKeyboardButton("🤖 مصنع بوتات", url="t.me/ML_EIBOT"),
+                InlineKeyboardButton("🎧 قناه المطور", url="t.me/D_o_m_A12"),
             ],
             [
                 InlineKeyboardButton("🔙 رجوع", callback_data="home"),
@@ -97,7 +97,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 InlineKeyboardButton("🏷️ قناة السورس", url=f"https://t.me/{UPDATES_CHANNEL}"),
             ],
             [
-                InlineKeyboardButton("🤖 ايــثــون", url="https://t.me/EITHON1"),
+                InlineKeyboardButton("🥇 المطور", url="https://t.me/lMl4ll"),
             ],
             [
                 InlineKeyboardButton("🤔 المساعده & الاوامر", callback_data="help"),
@@ -194,7 +194,7 @@ async def start(client: Client, message: Message):
                 InlineKeyboardButton("🏷️ قناة السورس", url=f"https://t.me/{UPDATES_CHANNEL}"),
             ],
             [
-                InlineKeyboardButton("🤖 ايــثــون", url="https://t.me/EITHON1"),
+                InlineKeyboardButton("🥇 المطور", url="https://t.me/lMl4ll"),
             ],
             [
                 InlineKeyboardButton("🤔 المساعده & الاوامر", callback_data="help"),
@@ -217,7 +217,7 @@ async def help(client: Client, message: Message):
                 InlineKeyboardButton("🗨️ اسبام", callback_data="spam"),
             ],
             [
-                InlineKeyboardButton("🤖 مصنع حمايه", url="t.me/ML_EIBOT"),
+                InlineKeyboardButton("🎧 قناه المطور", url="t.me/D_o_m_A12"),
             ],
             [
                 InlineKeyboardButton("🔙 رجوع", callback_data="home"),
