@@ -93,7 +93,7 @@ async def skip(client, m: Message):
 
 
 @Client.on_message(
-    command(["ايقاف", f"stop@{BOT_USERNAME}", "انهاء", f"end@{BOT_USERNAME}", "vstop"])
+    command(["ايقاف", f"stop@{BOT_USERNAME}", "/end", f"end@{BOT_USERNAME}", "vstop"])
     & other_filters
 )
 @authorized_users_only
@@ -116,7 +116,7 @@ async def stop(client, m: Message):
             await remove_active_video_chat(chat_id)
             await remove_active_chat(chat_id)
             clear_queue(chat_id)
-            await m.reply("✅ انقطع اتصال المستخدم الروبوت بالدردشة المرئية.")
+            await m.reply("✅ انقطع اتصال الحساب المساعد بالدردشة المرئية.")
         except Exception as e:
             await m.reply(f"🚫 **خطأ:**\n\n`{e}`")
     else:
