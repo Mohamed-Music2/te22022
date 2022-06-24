@@ -154,10 +154,8 @@ async def play(c: Client, m: Message):
                       InlineKeyboardButton("⏭️", "skip"),
                       InlineKeyboardButton("▶️", callback_data="cbresume"),
                   ],[
-                      InlineKeyboardButton(text="✨ جروب الدعم", url=f"https://t.me/{GROUP_SUPPORT}"),
-                      InlineKeyboardButton(text="📣 قناة السورس", url=f"https://t.me/{UPDATES_CHANNEL}"),
-                     InlineKeyboardButton("سورس ايــثــون الصوتي", url=f"https://t.me/EITHMU1"),
-                     InlineKeyboardButton("سورس ايــثــون يوزربوت", url=f"https://t.me/EITHON1"),
+                      InlineKeyboardButton(text=" جروب الدعم", url=f"https://t.me/{GROUP_SUPPORT}"),
+                      InlineKeyboardButton(text=" قناة السورس", url=f"https://t.me/{UPDATES_CHANNEL}").
                   ],[
                       InlineKeyboardButton("🗑", callback_data="cls")],
                   ]
